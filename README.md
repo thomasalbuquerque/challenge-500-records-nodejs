@@ -25,7 +25,7 @@ If a file named output.txt already exists, the program will delete it and create
 
 ## Installation and running
 
-To begin, make sure you have Node.js 14.x.x or newer with npm installed on your system. If you don't have them, please refer to the official documentation for instructions on how to install them.
+To begin, make sure you have Node.js 14.x or newer installed on your system. If you don't have it, please refer to the [official documentation](https://nodejs.org/en/docs) for instructions on how to install it.
 
 Then follow the steps below:
 
