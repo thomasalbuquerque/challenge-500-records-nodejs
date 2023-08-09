@@ -18,8 +18,8 @@ function writeFile(posts) {
     let i = 50;
     const iterations = setInterval(() => {
         console.log(i);
-        const piece = JSON.stringify(posts.slice(i - 50, i), null, 2);
-        const output = piece.slice(1, piece.length - 2) + ',';
+        const piece = posts.slice(i - 50, i);
+        const output = piece.join('\n\n');
         fs.appendFile('outputs/output.txt', output, 'utf8', (error) => {
             if (error) {
                 console.error('File writing failed.', error);
