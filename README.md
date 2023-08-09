@@ -11,6 +11,8 @@ From: ${post.email}
 ${post.name} says ${post.body}
 ```
 
+![image](https://github.com/thomasalbuquerque/challenge-500-records-nodejs/assets/7840248/c317b677-58ee-452c-8fe3-a05ad58df959)
+
 The emission process occurs by sending sets of 50 posts every 1 second until all posts are emitted. Each new set of 50 posts emitted in each iteration is appended at the end of the file.
 
 If a file named output.txt already exists, the program will delete it and create a new one to emit the new data.
