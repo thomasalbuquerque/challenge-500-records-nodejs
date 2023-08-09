@@ -50,4 +50,4 @@ Then follow the steps below:
     npm run start
 ```
 
-5. Check the output.txt file to see the emitted posts.
+5. Check the outputs/output.txt file to see the emitted posts.
