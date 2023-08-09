@@ -6,8 +6,10 @@ The program fetches data from an endpoint (https://jsonplaceholder.typicode.com/
 
 The program then emits the posts to a file called output.txt, formatted as follows:
 
+```bash
 From: ${post.email}
 ${post.name} says ${post.body}
+```
 
 The emission process occurs by sending sets of 50 posts every 1 second until all posts are emitted. Each new set of 50 posts emitted in each iteration is appended at the end of the file.
 
